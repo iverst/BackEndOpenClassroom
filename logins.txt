@@ -1,0 +1,7 @@
+iverst
+fs0nJG9wxp5orhEv
+
+server
+papi
+
+mongodb+srv://iverst:<fs0nJG9wxp5orhEv>@cluster0.wpxe1ke.mongodb.net/?retryWrites=true&w=majority
