@@ -5,6 +5,8 @@ const bodyParser = require('body-parser');
 const app = express();
 //permet l'utilisation des json
 const stuffRoutes = require('./routes/stuff');
+const userRoutes = require('./routes/user');
+
 
 app.use(express.json());
 app.use(bodyParser.json());
@@ -28,7 +30,7 @@ app.use((req, res, next) => {
 
 
 app.use('/api/stuff', stuffRoutes);
-
+app.use('/api/auth', userRoutes);
 
 
 
